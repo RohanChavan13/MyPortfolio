@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #2563eb;
+  --abt-tabl:white;
+  --primary-dark: #1d4ed8;
+  --fst-img:white;
+  --proj-info:white;
+  --hdr-nav:rgba(255, 255, 255, 0.95);
+  --bdr-clr:blue;
+  --ctc-inf:white;
+  --secondary-color: #64748b;
+  --accent-color: #3b82f6;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --header-btn:#64748b;
+  --text-light: #94a3b8;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-accent: #eff6ff;
+  --border-color: #e2e8f0;
+  --placeholder-img:rgb(240, 240, 255);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+body.dark {
+  --primary-color: #3b82f6;   /* brighter blue for dark bg */
+  --primary-dark: #2563eb;   
+  --abt-tabl:rgba(51, 35, 88, 0.463);
+  --fst-img:rgba(10, 4, 17, 0.511);
+  --hdr-nav:rgb(19, 37, 83);
+  --bdr-clr:rgb(7, 73, 102);
+  --ctc-inf:var(--accent-color);
+  --secondary-color: #94a3b8; /* softer gray-blue */
+  --accent-color: #60a5fa;
+  --header-btn:#73f1e9;
+  --proj-info:rgb(25, 31, 143);
+  --text-primary: #f1f5f9;    /* almost white */
+  --text-secondary: #cbd5e1;  /* light gray */
+  --text-light: #94a3b8;      /* muted gray-blue */
+
+  --bg-primary: #0f172a;      /* deep navy */
+  --bg-secondary: #0a2755b7;    /* slate gray */
+  --bg-accent: #1e3a8a;       /* dark indigo accent */
+
+  --border-color: #334155;    /* dark slate gray */
+
+  --placeholder-img: rgb(55, 65, 81); /* darker muted placeholder */
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 
+               0 2px 4px -2px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6), 
+               0 4px 6px -4px rgb(0 0 0 / 0.5);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7), 
+               0 8px 10px -6px rgb(0 0 0 / 0.6);
+
+    
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+

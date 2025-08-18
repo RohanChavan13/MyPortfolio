@@ -1,0 +1,132 @@
+.about-section {
+    background-color: var(--bg-secondary);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.about-text h3 {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+}
+
+.about-details {
+    background:var(--abt-tabl);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 2rem;
+}
+
+.section {
+  padding: 5rem 0;
+  
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+
+}
+
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.detail-value {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-placeholder-large {
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    border: 2px dashed var(--border-color);
+    width: 100%;
+    max-width: 300px;
+}
+
+.profile-placeholder-large img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+@media (max-width: 450px){
+  .about-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .section-title h2{
+    font-size: 9vw;
+  }
+  .about-text p{
+    font-size: 4vw;
+  }
+  .detail-value{
+    font-size: 4vwvw;
+  }
+  .about-details{
+    padding-left: 7vw;
+  }
+  .profile-placeholder-large{
+    height: 71vw;
+  }
+  .profile-placeholder-large img{
+    height: 70vw;
+  }
+  .about-image{
+    margin: 0 auto;
+  }
+}
+
