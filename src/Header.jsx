@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaMoon, FaSun } from 'react-icons/fa';
 import './Header.css';
+import { motion } from "motion/react"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [theme, setTheme] = useState("light");
+
+  
 
   useEffect(() => {
     const handleScroll = () => {

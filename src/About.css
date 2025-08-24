@@ -102,6 +102,16 @@ h2 {
     border-radius: 10%;
 }
 
+.profile-image{
+  
+  height: 100%;
+    width: 100%;
+    scale: 1.6;
+    margin-left: 10vw;
+    margin-top: 5vw;
+
+}
+
 @media (max-width: 450px){
   .about-content{
     display: flex;
@@ -127,6 +137,11 @@ h2 {
   }
   .about-image{
     margin: 0 auto;
+  }
+  .profile-image{
+    scale: 1;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 

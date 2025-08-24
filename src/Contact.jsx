@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 import './Contact.css';
+import { motion } from "motion/react"
 
 function Contact() {
 
@@ -33,7 +34,7 @@ function Contact() {
 
   return (
     <section id="contact" className="section contact-section">
-      <div   id='cont'    className="container">
+      <div id='cont' className="container">
         <div className="section-title">
           <h2>Get In Touch</h2>
         </div>
@@ -104,7 +105,7 @@ function Contact() {
             <div className="form-card">
               <h3>Send Message</h3>
               <form className="contact-form">
-                <div className="form-group">
+                <div className="form-group" >
                   <label htmlFor="name">Name *</label>
                   <input
                     type="text"
@@ -112,6 +113,7 @@ function Contact() {
                     name="name"
                     required
                     placeholder="Your full name"
+                    style={{ color: 'var(--cnt-formt)' }}
                   />
                 </div>
 
@@ -123,6 +125,7 @@ function Contact() {
                     name="email"
                     required
                     placeholder="your.email@example.com"
+                    style={{ color: 'var(--cnt-formt)' }}
                   />
                 </div>
 
@@ -134,14 +137,17 @@ function Contact() {
                     required
                     rows="5"
                     placeholder="Tell me about your project or inquiry..."
+                    style={{ color: 'var(--cnt-formt)' }}
                   ></textarea>
                 </div>
 
-                <button
+                <motion.button
+                  // whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.7 }}
                   type="submit"
                   className="btn btn-primary submit-btn"
                 >Send Message
-                </button>
+                </motion.button>
               </form>
             </div>
           </div>

@@ -37,7 +37,8 @@ body.dark {
   --proj-info:rgb(25, 31, 143);
   --text-primary: #f1f5f9;    /* almost white */
   --text-secondary: #cbd5e1;  /* light gray */
-  --text-light: #94a3b8;      /* muted gray-blue */
+  --text-light: #94a3b8;   
+  --cnt-form:white;   /* muted gray-blue */
 
   --bg-primary: #0f172a;      /* deep navy */
   --bg-secondary: #0a2755b7;    /* slate gray */
