@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 import './Contact.css';
 import { motion } from "motion/react"
-import LeetCode from "./LeetCode";
+import Leetcode from "./Leetcode";
 
 function Contact() {
 
@@ -28,7 +28,7 @@ function Contact() {
    {
     name: "LeetCode",
     url: "https://leetcode.com/u/rohanchavan_313/", // replace with your profile
-    icon: <LeetCode />,
+    icon: <Leetcode />,
     color: "#FFA116", // official LeetCode orange
   }
   ];
