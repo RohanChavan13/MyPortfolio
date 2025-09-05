@@ -22,7 +22,10 @@
   width: 100%;
   max-width: 500px;
 }
-
+.leetcode{
+  width: 25px;
+  height: 25px;
+}
 .info-card h3 {
   color: var(--text-primary);
   margin-bottom: 1rem;
