@@ -15,8 +15,7 @@ const Projects = () => {
       description: "A simple and user-friendly web interface for pneumonia detection where users can upload chest X-ray images. The system connects to a backend API for AI-based predictions and displays results clearly.",
       image: pneumonia,
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap", "API"],
-      github: "https://github.com/rohanchavan/pneumonia-detection-frontend",
-      demo: "https://pneumonia-frontend.rohanchavan.com",
+      github: "https://github.com/RohanChavan13/Pneumonia-Detection-Frontend",
       category: "Frontend Development"
     },
     {
@@ -24,8 +23,7 @@ const Projects = () => {
       description: "A responsive cricket website showing live scores, player stats, and match schedules using a public cricket API. Built with Bootstrap for styling and JavaScript for real-time updates.",
       image: cricket,
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap", "API"],
-      github: "https://github.com/rohanchavan/cricket-website",
-      demo: "https://cricket.rohanchavan.com",
+      github: "https://github.com/RohanChavan13/Cricket_website",
       category: "Web Development"
     },
     {
@@ -33,8 +31,7 @@ const Projects = () => {
       description: "A comprehensive online auction platform built with Django and OpenCV for image processing and user authentication. Features real-time bidding, secure payment integration, and admin dashboard.",
       image: auction,
       techStack: ["Django", "OpenCV", "Python", "HTML/CSS", "JavaScript"],
-      github: "https://github.com/rohanchavan/auction-system",
-      demo: "https://auction-demo.rohanchavan.com",
+      github: "https://github.com/RohanChavan13/Online_Auction",
       category: "Web Development"
     },
     {
@@ -42,8 +39,6 @@ const Projects = () => {
       description: "A personal voice assistant inspired by Iron Man's JARVIS, capable of voice commands, task automation, web searches, and smart home control using speech recognition and text-to-speech. But it is on the way!",
       image: jarvis,
       techStack: ["Python", "Speech Recognition", "Text-to-Speech", "APIs", "Automation"],
-      github: "https://github.com/rohanchavan/jarvis-assistant",
-      demo: "https://jarvis-demo.rohanchavan.com",
       category: "AI & Automation"
     }
 
@@ -117,14 +112,6 @@ const Projects = () => {
                       onClick={() => handleProjectClick(project.github)}
                     >
                       <FaGithub /> View Code
-                    </button>
-                  )}
-                  {project.demo && (
-                    <button
-                      className="btn btn-primary project-action-btn"
-                      onClick={() => handleProjectClick(project.demo)}
-                    >
-                      <FaExternalLinkAlt /> Live Demo
                     </button>
                   )}
                 </div>
